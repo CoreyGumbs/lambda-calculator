@@ -4,7 +4,7 @@ const SpecialButton = props => {
   const {char} = props;
   return (
     <>
-      <button>{char}</button>
+      <button className='keyPad-Btn'>{char}</button>
     </>
   );
 };

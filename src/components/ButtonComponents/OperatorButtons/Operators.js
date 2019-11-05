@@ -10,13 +10,12 @@ const Operators = () => {
   // STEP 2 - add the imported data to state
  
   return (
-    <div>
+    <div className='operatorContainer'>
       {
         operatorBtns.map((operator, idx) => (
           <OperatorButton key={idx} operator={operator} />
         ))
       }
-       
     </div>
   );
 };

@@ -7,7 +7,7 @@ const OperatorButton = props => {
 
   return (
     <>
-      <button>{operator.value}</button>
+      <button className='keyPad-Btn operatorBtn'>{operator.char}</button>
     </>
   );
 };

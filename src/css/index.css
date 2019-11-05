@@ -18,7 +18,7 @@ code {
   padding-bottom: 25px;
 }
 .logo-container {
-  width: 90%;
+  width: 85%;
   margin: 50px  auto 0 auto;
   padding: 0;
 }
@@ -26,9 +26,9 @@ code {
   width: 11rem;
 }
 .display {
-  margin-top: 25px;
+  margin: 25px auto 0 auto;
   height: 100px;
-  width: 450px;
+  width: 79%;
   border-radius: 50px;
   color: white;
   background-color: #322c2d;
@@ -40,5 +40,37 @@ code {
   font-size: 9rem;
 }
 .keyPad {
+  width: 85%;
+  margin: 20px auto;
   border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+}
+.keyPad .keyPad-Btn {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto;
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+  box-shadow: 0px 5px 5px #000000;
+}
+.keyPad .leftPad {
+  width: 80%;
+  border: 1px solid green;
+}
+.keyPad .rightPad {
+  width: 20%;
+  border: 1px solid yellow;
+  display: flex;
+}
+.keyPad .rightPad .operatorContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.keyPad .rightPad .operatorContainer .operatorBtn {
+  background-color: #227293;
 }

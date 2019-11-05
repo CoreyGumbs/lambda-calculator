@@ -1,3 +1,40 @@
 .keyPad{
+    width: @width;
+    margin: 20px auto;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+
+    .keyPad-Btn{
+        width: 80px;
+        height: 80px;
+        margin: 20px auto;
+        font-size: 5rem;
+        text-align: center;
+        color: @btnColor;
+        border-radius: 100%;
+        box-shadow: 0px 5px 5px @boxShadow;
+
+    }
+    .leftPad{
+        width: 80%;
+        border: 1px solid green;
+    }
+
+    .rightPad{
+        width: 20%;
+        border: 1px solid yellow;
+        display: flex;
+
+        .operatorContainer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-flow: column nowrap;
+
+            .operatorBtn{
+                background-color: @operatorBtnBG;
+            }
+        }
+    }
 }

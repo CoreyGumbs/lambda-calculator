@@ -4,7 +4,7 @@ const NumberButton = props => {
   const {number} = props;
   return (
     <>
-      <button className='keyPad-Btn' value={number}>{number}</button>
+      <button className='keyPad-Btn numberBtn' value={number}>{number}</button>
     </>
   );
 };

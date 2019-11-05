@@ -28,3 +28,6 @@ code {
   padding-right: 8%;
   font-size: 5rem;
 }
+.keyPad {
+  border: 1px solid blue;
+}

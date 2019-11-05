@@ -10,7 +10,7 @@ import { numbers } from '../../../data'
 //Import your array data to from the provided data file
 
 const Numbers = () => {
-  const [numberBtns, setNumberBtns] = useState(numbers);
+  const [numberBtns] = useState(numbers);
   // STEP 2 - add the imported data to state
   return (
     <div>

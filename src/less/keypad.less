@@ -8,7 +8,7 @@
         width: 80px;
         height: 80px;
         margin: 20px 20px;
-        font-size: 5rem;
+        font-size: 4rem;
         text-align: center;
         color: @btnColor;
         border-radius: 100%;
@@ -32,6 +32,10 @@
         .specialBtn{
             background-color: @specialBtnBG;
         }
+
+        .specialBtn:hover, .numberBtn:hover {
+            background-color: @hoverColor;
+        }
     }
 
     .rightPad{
@@ -46,6 +50,10 @@
 
             .operatorBtn{
                 background-color: @operatorBtnBG;
+            }
+
+            .operatorBtn:hover {
+                background-color: @hoverColor;
             }
         }
     }

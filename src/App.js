@@ -10,7 +10,7 @@ import Keypad from './components/KeypadComponent/Keypad';
 
 
 function App() {
-  const [displayNum, setDisplayNum] = useState(0);
+  const [displayNum] = useState(0);
   
 
   return (

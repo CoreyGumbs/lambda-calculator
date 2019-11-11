@@ -1,0 +1,60 @@
+.keyPad{
+    width: @width;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+
+    .keyPad-Btn{
+        width: 80px;
+        height: 80px;
+        margin: 20px 20px;
+        font-size: 4rem;
+        text-align: center;
+        color: @btnColor;
+        border-radius: 100%;
+        border: 0;
+        box-shadow: 0px 5px 5px @boxShadow;
+
+    }
+    .leftPad{
+        width: 80%;
+
+        .numberBtn{
+            background-color: @numberBtnBG;
+        }
+
+        .numberBtn:nth-of-type(10){
+            padding: 10px 100px;
+            border-radius: 100px;
+            text-align: center;
+        }
+
+        .specialBtn{
+            background-color: @specialBtnBG;
+        }
+
+        .specialBtn:hover, .numberBtn:hover {
+            background-color: @hoverColor;
+        }
+    }
+
+    .rightPad{
+        width: 20%;
+        display: flex;
+
+        .operatorContainer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-flow: column nowrap;
+
+            .operatorBtn{
+                background-color: @operatorBtnBG;
+            }
+
+            .operatorBtn:hover {
+                background-color: @hoverColor;
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.container {
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
+}
+.logo-container {
+  width: 85%;
+  margin: 50px  auto 0 auto;
+  padding: 0;
+}
+.logo-container .logo {
+  width: 15rem;
+}
+.display {
+  margin: 25px auto 0 auto;
+  height: 100px;
+  width: 79%;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 9rem;
+}
+.keyPad {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.keyPad .keyPad-Btn {
+  width: 80px;
+  height: 80px;
+  margin: 20px 20px;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+  border: 0;
+  box-shadow: 0px 5px 5px #000000;
+}
+.keyPad .leftPad {
+  width: 80%;
+}
+.keyPad .leftPad .numberBtn {
+  background-color: #17427a;
+}
+.keyPad .leftPad .numberBtn:nth-of-type(10) {
+  padding: 10px 100px;
+  border-radius: 100px;
+  text-align: center;
+}
+.keyPad .leftPad .specialBtn {
+  background-color: #225d9d;
+}
+.keyPad .leftPad .specialBtn:hover,
+.keyPad .leftPad .numberBtn:hover {
+  background-color: #323232;
+}
+.keyPad .rightPad {
+  width: 20%;
+  display: flex;
+}
+.keyPad .rightPad .operatorContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+.keyPad .rightPad .operatorContainer .operatorBtn {
+  background-color: #227293;
+}
+.keyPad .rightPad .operatorContainer .operatorBtn:hover {
+  background-color: #323232;
+}
